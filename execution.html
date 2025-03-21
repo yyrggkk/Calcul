@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url("https://i.postimg.cc/DZTny3f4/illustration-coloree-calculatrice-dessin-anime-1308-174688.avif");
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: right;
+            }
+            span{
+                position: absolute;
+                top: 162px;
+                right: 115px;
+                transform: scale(2,2);
+                background-color: rgb(190, 247, 255);
+                height: 26px;
+                width: 93px;
+                color: black;
+                line-height: 25px;
+                box-sizing: border-box;
+            }
+            .plus{
+                position: absolute;
+                top: 494px;
+                right: 62px;
+                padding: 20px 28px;
+                opacity: 0;
+            }
+            button:hover{
+                cursor: pointer;
+            }
+            .cal{
+                position: absolute;
+                top: 494px;
+                right: 151px;
+                padding: 20px 28px;
+                opacity: 0;
+            }
+            .moins{
+                position: absolute;
+                top: 413px;
+                right: 64px;
+                padding: 20px 28px;
+                opacity: 0;
+            }
+            .fois{
+                position: absolute;
+                top: 331px;
+                right: 64px;
+                padding: 20px 28px;
+                opacity: 0;
+            }
+            .bom{
+                position: absolute;
+                top: 249px;
+                right: 64px;
+                padding: 20px 29px;
+                opacity: 0;
+            }
+            .A1{
+                position: absolute;
+                top: 413px;
+                right: 327px;
+                padding: 20px 28px;
+                opacity: 0;
+            }
+            .A2{
+                position: absolute;
+                top: 413px;
+                right: 239px;
+                padding: 20px 28px;
+                opacity: 0;
+            }
+            .A3{
+                position: absolute;
+                top: 413px;
+                right: 151px;
+                padding: 20px 28px;
+                opacity: 0;
+            }
+            .A4{
+                position: absolute;
+                top: 331px;
+                right: 327px;
+                padding: 20px 28px;
+                opacity: 0;
+            }
+            .A5{
+                position: absolute;
+                top: 331px;
+                right: 239px;
+                padding: 20px 28px;
+                opacity: 0;
+            }
+            .A6{
+                    position: absolute;
+                    top: 331px;
+                    right: 151px;
+                    padding: 20px 28px;
+                    opacity: 0;
+            }
+            .A7{
+                position: absolute;
+                top: 250px;
+                right: 328px;
+                padding: 20px 28px;
+                opacity: 0;
+            }
+            .A8{
+                position: absolute;
+                top: 249px;
+                right: 240px;
+                padding: 20px 28px;
+                opacity: 0;
+            }
+            .A9{
+                position: absolute;
+                top: 249px;
+                right: 151px;
+                padding: 20px 28px;
+                opacity: 0;
+            }
+            .A0{
+                position: absolute;
+                top: 495px;
+                right: 327px;
+                padding: 20px 28px;
+                opacity: 0;
+            }
+            .R{
+                position: absolute;
+                top: 495px;
+                right: 238px;
+                padding: 20px 28px;
+                opacity: 0; 
+            }
+        </style>
+    </head>
+    <body>
+        
+        
+        <button onclick="part1('somme')" class="plus">+</button>
+        <button onclick="part1('soustraction')" class="moins">-</button>
+        <button onclick="part1('produit')" class="fois">*</button>
+        <button onclick="part1('division')" class="bom">/</button>
+        <button onclick="part2()" class="cal">c</button>
+        <button onclick="print1()" class="A1">1</button>
+        <button onclick="print2()" class="A2">2</button>
+        <button onclick="print3()" class="A3">3</button>
+        <button onclick="print4()" class="A4">4</button>
+        <button onclick="print5()" class="A5">5</button>
+        <button onclick="print6()" class="A6">6</button>
+        <button onclick="print7()" class="A7">7</button>
+        <button onclick="print8()" class="A8">8</button>
+        <button onclick="print9()" class="A9">9</button>
+        <button onclick="print0()" class="A0">0</button>
+        <BUtton onclick="reset()" class="R">R</BUtton>
+        <span class="res"></span>
+        <script src="ex.js"></script>
+    </body>
+</html>
