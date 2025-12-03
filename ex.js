@@ -176,3 +176,4 @@ function division(A,B){
     }
     
 }
+function vide(){}
